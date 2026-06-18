@@ -1,0 +1,19 @@
+#contenitore {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.div1 {
+  display: flex;
+  width: 960px;
+  flex-direction: row;
+}
+
+.div2 {
+  background-color: white;
+  border: 0.1px solid rgb(188, 188, 188);
+  box-sizing: border-box;
+}
+
+
