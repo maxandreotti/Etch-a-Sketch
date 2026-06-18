@@ -7,6 +7,7 @@ const par = document.querySelector("#par");
 conferma.addEventListener("click", () => {
   if (+input.value > 100 || +input.value < 1) {
     par.textContent = "Inserisci un numero valido"
+    contenitore.innerHTML = "";
   } else {
     par.textContent = "";
     contenitore.innerHTML = "";
